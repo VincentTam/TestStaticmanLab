@@ -1,2 +1,13 @@
+# Site settings
+title: Minimal Staticman v3 Demo
+email: your-email@domain.com
+description: Test
+baseurl: ""
+url: "https://vincenttam.github.io/TestStaticmanLab/"
+github_username:  VincentTam
+
+# Build settings
+markdown: kramdown
+
 staticman:
   path: "_data/comments/test-slug"
