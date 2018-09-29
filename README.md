@@ -1,5 +1,9 @@
-# Test StaticmanLab
-_Minimal_ Jekyll GitHub Pages running [Staticman v3](https://github.com/eduardoboucas/staticman/pull/219).
+# Test Staticman Lab
+_Minimal_ GitHub static site powered by [Jekyll](https://jekyllrb.com),
+served by @staticmanlab running on [Staticman](https://staticman.net).
+
++ demonstrate how [Staticman v3](https://github.com/eduardoboucas/staticman/pull/219) works with Jekyll.
++ facilitate other developers to change my repo.  (e.g. add CSS)
 
 ## Minimal setup
 Clone this repo.
