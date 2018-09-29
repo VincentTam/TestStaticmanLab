@@ -3,7 +3,8 @@
   {% for comment in comments reversed %}
     {% assign commentData = comment[1] %}
     <article class="comment">
-      <p class="comment-name">Comment by: {{ commentData.name }} at timestamp {{ commentData.date }}</p>
+      <h5 class="comment-name">{{ commentData.name }}</h5>
+      <p class="comment-time">{{ commentData.time | date: "%b %d, %Y %H:%M:%S" }}</p>
       <div class="comment-msg">
         {{ commentData.message | markdownify }}
       </div>
