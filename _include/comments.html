@@ -1,0 +1,12 @@
+<div class="comments">
+  {% assign comments = site.data.comments.test-slug | sort %}
+  {% for comment in comments reversed %}
+    {% assign commentData = comment[1] %}
+    <article class="comment">
+      <p class="comment-name">Comment by: {{ commentData.name }} at timestamp {{ commentData.date }}</p>
+      <div class="comment-msg">
+        {{ commentData.message | markdownify }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
