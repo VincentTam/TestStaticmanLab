@@ -1,9 +1,10 @@
 <div class="comments">
+  <h3>Comments</h3>
   {% assign comments = site.data.comments.test-slug | sort %}
   {% for comment in comments reversed %}
     {% assign commentData = comment[1] %}
     <article class="comment">
-      <h5 class="comment-name">{{ commentData.name }}</h5>
+      <h4 class="comment-name">{{ commentData.name }}</h4>
       <p class="comment-time">{{ commentData.date | date: "%b %d, %Y %H:%M:%S" }}</p>
       <div class="comment-msg">
         {{ commentData.message | markdownify }}

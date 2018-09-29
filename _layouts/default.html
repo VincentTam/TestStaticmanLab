@@ -2,16 +2,18 @@
 layout: null
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale }}">
 <head>
   <meta charset="utf-8">
-  <title>Minimal Staticman v3 Demo</title>
+  <title>{{ site.title }}</title>
 </head>
 
 <body>
 <header class="header">
-  <h1>Minimal Staticman v3 Demo</h1>
-  <h2>A barebone GitHub Pages with static comments</h2>
+  <h1>{{ site.title }}</h1>
+  {{% if site.subtitle %}}
+    <h2>{{ site.subtitle }}</h2>
+  {{% endif %}}
 </header>
 {{ content }}
 </body>
