@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Minimal Staticman v3 Demo</title>
-</head>
-<body>
+---
+layout: default
+---
 <form method="POST" action="https://staticman3.herokuapp.com/v3/entry/github/vincenttam/TestStaticmanLab/master/comments">
   <input name="options[redirect]" type="hidden" value="index.html">
   <input name="options[slug]" type="hidden" value="test-slug">
@@ -15,5 +11,3 @@
   <button type="submit">Go!</button>
 </form>
 {% include comments.html %}
-</body>
-</html>
