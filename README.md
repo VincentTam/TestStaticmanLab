@@ -33,6 +33,13 @@ By default, comments are sent to the GitHub repo as pull requests because of the
 
 Changing it to `false` will enable automatic merge.
 
+Finally, make your Git repo available on GitHub and invite **@staticmanlab** as a collaborator.
+Enter the URL
+
+    https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo>
+    
+so that **@staticmanlab** can accept your invitation and start delivering comments to your site.
+
 ## Minimal site infrastructure
 The source code for this Jekyll site is made up of six pieces.
 The infrastructure follows [Popcorn](http://popcorn.staticman.net/), Staticman's official demo.
