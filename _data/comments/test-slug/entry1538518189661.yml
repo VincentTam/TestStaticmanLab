@@ -1,5 +1,0 @@
-_id: e10033f0-c68f-11e8-b4b5-57b89475ac7d
-name: Staticman Lab
-email: 13871190a95284fcf2394d98c614e6dc
-message: "inline \\\\\\\\(\\\\KaTeX\\\\\\\\): `\\\\\\\\(\\\\KaTeX\\\\\\\\)`\r\n$$\r\n\\sum_{n^0}^\\\\infty r^n < +\\\\infty\r\n$$\r\n```\r\n$$\r\n\\sum_{n^0}^\\\\infty r^n < +\\\\infty\r\n$$\r\n```\r\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css\" integrity=\"sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv\" crossorigin=\"anonymous\">\r\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js\" integrity=\"sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O\" crossorigin=\"anonymous\"></script>\r\n<script defer src=\"https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js\" integrity=\"sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF\" crossorigin=\"anonymous\"\r\n    onload=\"renderMathInElement(document.body);\"></script>"
-date: 1538518189
