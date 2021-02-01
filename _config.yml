@@ -12,5 +12,5 @@ github_username:  VincentTam
 markdown: kramdown
 
 staticman:
-  api: "https://staticman3.herokuapp.com/v3/entry/github/vincenttam/TestStaticmanLab/master/comments"
+  api: "https://secretman3.herokuapp.com/v3/entry/github/vincenttam/TestStaticmanLab/master/comments"
   path: "_data/comments/test-slug"
